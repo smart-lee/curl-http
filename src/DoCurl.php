@@ -1,4 +1,5 @@
 <?php
+namespace curlhttp;
 
 class DoCurl
 {

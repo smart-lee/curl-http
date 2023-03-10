@@ -18,12 +18,12 @@
   },
   "autoload": {
     "psr-4": {
-      "curl-http\\": "src/"
+      "curlhttp\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "curl-http\\Test\\": "test/"
+      "curlhttp\\Test\\": "test/"
     }
   },
   "repositories": {
