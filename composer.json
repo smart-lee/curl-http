@@ -1,0 +1,35 @@
+{
+  "name": "curl-http/curl-http",
+  "description": "curl tools",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lisl",
+      "email": "279077971@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-curl": "*"
+  },
+  "require-dev": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "curl-http\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "curl-http\\Test\\": "test/"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  }
+}
